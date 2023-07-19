@@ -1,0 +1,140 @@
+@font-face{
+    src: url(../Fonts/JetBrainsMono-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 80px;
+    background-color: rgb(134, 16, 39);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0 100px;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brand #bLogo{
+    margin-right: 15px;
+}
+
+.brand .bIdentity{
+    color: aliceblue;
+    text-align: left;
+    font-family: 'JetBrains Mono';
+    display: flex;
+    flex-direction: column;
+}
+
+.brand .bIdentity #bNama{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.brand .bIdentity #bMotto{
+    font-size: 0.7em;
+}
+
+.navigation{
+    display: flex;
+    font-family: 'JetBrains Mono'; 
+}
+
+.navigation>li{
+    list-style-type: none;
+    height: 80px;
+}
+
+.navigation li a{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+    font-family: 'JetBrains Mono';
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+main{
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    height: 90vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0 100px
+}
+
+.wInfo{
+    color: aliceblue;
+    margin-right: 75px;
+    font-family: 'JetBrains Mono';
+}
+
+#wName{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#wQuote{
+    margin-bottom: 30px;
+}
+
+.wWrapper{
+    display: flex;
+    font-family: 'JetBrains Mono';
+}
+
+.wWrapper li{
+    list-style-type: none;
+    height: 50px;
+}
+
+.wWrapper li a{
+    display: flex;
+    height: 100%;
+    color: aliceblue;
+    width: 200px;
+    border: 1px solid;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.wWrapper li a:hover{
+    background-color: crimson;
+    border-color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.wWrapper li #get{
+    margin-right: 50px;
+}
+
+#bismarck{
+    height: 500px;
+}
+
+footer{
+    background-color: red;
+    height: 80px;
+}

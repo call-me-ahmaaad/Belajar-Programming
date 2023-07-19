@@ -1,0 +1,38 @@
+body{
+    margin: 30px;
+}
+
+.box{
+    border: 5px solid green;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    margin: auto;
+}
+
+#box1{
+    background-color: brown;
+}
+
+#box2{
+    background-color: blueviolet;
+}
+
+.kotak{
+    border: 5px solid green;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+}
+
+#kotak1{
+    background-color: brown;
+    margin-left: auto;
+}
+
+#kotak2{
+    background-color: blueviolet;
+    margin-right: auto;
+}
