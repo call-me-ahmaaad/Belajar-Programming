@@ -1,0 +1,35 @@
+#h1{
+    color: aqua;
+}
+
+pre{
+    color: brown;
+}
+
+#p1{
+    color: greenyellow;
+}
+
+#p2{
+    color: rgb(255, 182, 47);
+}
+
+#p3{
+    color: rgb(47, 85, 255);
+}
+
+#p4{
+    color: rgb(255, 47, 134);
+}
+
+.title{
+    color: blueviolet;
+}
+
+.odd{
+    color:red
+}
+
+.even{
+    color: yellow;
+}
