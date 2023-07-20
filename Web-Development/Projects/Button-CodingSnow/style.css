@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+/* Button CSS */
+.btn{
+    font-family: "JetBrains Mono";
+    font-size: 18px;
+    font-weight: bold;
+    background: crimson;
+    width: 160px;
+    padding: 20px;
+    color: white;
+    text-decoration: none ;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /*Animation*/
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+}
+
+.btn:hover{
+    background: white;
+    color: crimson;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+    -webkit-transform: scale(1.1);
+}
